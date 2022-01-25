@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+
+header{
+    height: 15vh;
+    background-color: yellow;
+    padding: 30px 0;
+}
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+nav{
+    height: 10vh;
+    background-color: rgb(69, 69, 201)
+}
+
+
+header,nav,aside,main,footer{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: gray;
+    clear: both;
+    height: 20vh;
+}
+
+aside,main{
+    height: 70vh;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    background-color: deepskyblue;
+}
+
+main{
+    background-color: lightgray;
+    width: 40%;
+}
+
+
+
+
+ol{
+    list-style: none;
+    margin: auto;
+    margin-top: 0;
+    width: 30%;
+    height: 30vh;
+
+}
+
+li{
+    float: left;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    border: 1px solid white;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+li:hover{
+    background-color: rgb(133,133,256);
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+li:hover a{
+    color: rgb(254, 254, 255);
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.5em;
+    color: white;
+}

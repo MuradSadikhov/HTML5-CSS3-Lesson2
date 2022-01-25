@@ -1,0 +1,41 @@
+.Item{
+    width: 30%;
+    height: 20vh;
+    background-color: deeppink;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    height: 80vh;
+    width: 50%;
+    padding: 10px;
+    background-color: lightblue;
+    border: 5px solid black;
+    position: relative;
+}
+
+
+.i-1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+
+.i-2{
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.i-3{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    background-color: rebeccapurple;
+    z-index: 2;
+}
